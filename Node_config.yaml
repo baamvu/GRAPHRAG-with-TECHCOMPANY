@@ -24,15 +24,15 @@ config:
 model_config:
   service_provider: "openai"
   model_name: "mimo-v2.5-pro"
-  api_keys: "sk-s2qd0ho978isce9y7copngi2prjtv387sursezg2q1y7851c"
-  base_url: "https://api.xiaomimimo.com/v1"
+  api_keys: 
+  base_url: 
   max_tokens: 10000
   temperature: 0.0
   rate_limit: 50
 
 embedding_config:
   service_provider: "local_embedding"
-  model_name: "mimo-v2.5-pro"
+  model_name: 
   embedding_model_name: "sentence-transformers/all-MiniLM-L6-v2"
   api_keys: null
   rate_limit: 50
