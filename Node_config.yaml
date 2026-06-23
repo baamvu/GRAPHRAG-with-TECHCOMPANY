@@ -1,0 +1,38 @@
+config:
+  main_folder: "C:\\Users\\admin\\Documents\\GitHub\\GRAPHRAG-with-TECHCOMPANY"
+  language: "English"
+  chunk_size: 1200
+  embedding_batch_size: 50
+  m: 5
+  ef: 200
+  m0: null
+  space: "l2"
+  dim: 384
+  docu_type: "mixed"
+  Hcluster_size: 39
+  cross_node: 10
+  Enode: 10
+  Rnode: 10
+  Hnode: 10
+  HNSW_results: 10
+  similarity_weight: 1
+  accuracy_weight: 10
+  ppr_alpha: 0.5
+  ppr_max_iter: 8
+  unbalance_adjust: false
+
+model_config:
+  service_provider: "openai"
+  model_name: "mimo-v2.5-pro"
+  api_keys: "sk-s2qd0ho978isce9y7copngi2prjtv387sursezg2q1y7851c"
+  base_url: "https://api.xiaomimimo.com/v1"
+  max_tokens: 10000
+  temperature: 0.0
+  rate_limit: 50
+
+embedding_config:
+  service_provider: "local_embedding"
+  model_name: "mimo-v2.5-pro"
+  embedding_model_name: "sentence-transformers/all-MiniLM-L6-v2"
+  api_keys: null
+  rate_limit: 50
