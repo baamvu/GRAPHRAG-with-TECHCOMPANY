@@ -1,0 +1,10 @@
+# NodeRAG cache and build artifacts
+cache/
+info/
+input/
+chroma_db/
+error.log
+evaluation_results.txt
+__pycache__/
+*.pyc
+.env
